@@ -1,7 +1,7 @@
 # severe_weather
 Analysis of severe weather data from the National Weather Service's Storm Prediction Center.
 
-This is a personal project I've undertaken to expand and showcase my data analysis skills. Ever since I was a kid I've had a huge interest in severe weather, and I wanted to take a closer look and apply some data analysis. Using data from the NWS SPC and US Census Bureau, I've completed the first phase of the project, cleaning the data to make it usable for analysis.
+This is a personal project I've undertaken to expand and showcase my data analysis skills. Ever since I was a kid I've had a huge interest in severe weather, and I wanted to take a closer look and apply some data analysis. Using data for tornado, wind, and hail events from the NWS SPC and accurate maps from the US Census Bureau, I've completed the first phase of the project, cleaning the data to make it usable for analysis.
 
 In my initial review of the data, I found relatively few errors, only one instance of duplicates, and null values for one field in one of the datasets. The loss field also needed adjusting, as it contained data in three different formats, categorical, millions USD, and actual dollar amount. When I began to plot the data on a map according to state, I discovered there were numerous (thousands) of errors regarding the listed state of origin. One amusing example was a tornado labeled for Texas but with coordinates placing it in Ohio. 
 
